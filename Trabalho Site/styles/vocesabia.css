@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    padding: 40px;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+    color:#333;
+  }
+  .curiosidades {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .curiosidades h2 {
+    color: #444;
+  }
+  .curiosidades ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  .curiosidades li {
+    margin-bottom: 15px;
+  }

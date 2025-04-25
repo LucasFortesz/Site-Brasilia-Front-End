@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:lightgray;
+    margin-bottom: 20px;
+}
+
+#cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 10px;
+    margin-bottom: -25px;
+}
+
+ul {
+    margin-left: 40px;
+}
+
+li {
+    margin-top: 10px;
+}
+  
+#cards img {
+    height: 200px;
+    width: 470px;
+    margin-right: 100px;
+}
+footer {
+    background-color:#333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.main-content {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav {
+    background-color: #444;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#banner{
+    width: 100%;
+    height: 200px;
+}
+#container-header{
+    background-color:#333;
+}
+
+#logo {
+    margin: 10px;
+    margin-left: 20px;
+}
+#container-main h1 {
+    padding: 20px;
+    font-size: 60px;
+}
+
+#container-main {
+    height: 375px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+#container-main div {
+    width: 500px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.20);
+}
+
+button {
+    margin-top: 15px;
+    width: 470px;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+    background-color:#333;
+    color: #fff;
+    font-weight: bold;
+    display: none;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+#container-main div:hover {
+    transform: scale(1.10);
+
+    button {
+        display: flex;
+        justify-content: center;
+    }
+    }
