@@ -117,18 +117,8 @@ button {
     background-color:#333;
     color: #fff;
     font-weight: bold;
-    display: none;
 }
 
 button:hover {
     transform: scale(1.02);
 }
-
-#container-main div:hover {
-    transform: scale(1.10);
-
-    button {
-        display: flex;
-        justify-content: center;
-    }
-    }

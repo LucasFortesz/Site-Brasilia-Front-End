@@ -1,0 +1,364 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap");
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#eventos-comemorativos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3a688a;
+  height: 400px;
+  padding-top: 50px;
+}
+
+#title-eventos {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+#description-eventos {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.button-eventos {
+  padding: 12px 30px 12px 30px;
+  border-radius: 7px;
+  background-color: #fff;
+  border: none;
+  color: #0077b6;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-eventos:hover {
+  background-color: #e9f1f4;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container-descoberta {
+  height: 400px;
+  padding: 0px 20px 0px 20px;
+  background-color: #f5ebd8;
+  display: flex;
+  align-items: center;
+}
+
+#title-descoberta {
+  font-size: 36px;
+  color: #1d3557;
+  margin-bottom: 15px;
+}
+
+img {
+  width: 45%;
+  border-radius: 10px;
+}
+
+#historia-brasilia {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#title-historia {
+  font-size: 46px;
+  color: #1d3557;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+
+#description-historia {
+  color: #485971;
+  font-size: 16px;
+  text-align: left;
+  width: 90%;
+}
+
+#container-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 70px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 435px;
+  height: 268px;
+  padding: 0px 15px 0px 15px;
+  background-color: #f5ebd8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2);
+  margin-bottom: 80px;
+}
+
+.card i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a8dadc;
+  color: #1d3557;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  border-radius: 31px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.title-card {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1d3557;
+}
+
+.description-card {
+  font-size: 15px;
+  text-align: center;
+  color: #4b5563;
+}
+
+#container-linha-do-tempo {
+  background-color: #f5ebd8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 20px 0px 0px;
+}
+
+#linha-do-tempo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+#title-linha-do-tempo {
+  font-size: 36px;
+  color: #1d3557;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+#linha-do-tempo ul {
+  border-left: 4px solid #1d3557;
+  padding-left: 8px;
+  color: #1d3557;
+  list-style-image: url(../../../assets/listaEscura.svg);
+  margin-bottom: 40px;
+}
+
+#linha-do-tempo li {
+  margin-bottom: 70px;
+}
+
+#ultimo-p {
+  margin-bottom: -40px;
+}
+
+li p {
+  color: #485971;
+  font-size: 16px;
+}
+
+#container-comemoracao {
+  background: linear-gradient(to right, #15263a, #1f374b, #27465a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 10px 80px 10px;
+  color: #fff;
+  gap: 20px;
+  font-size: 20px;
+}
+
+#container-carta i {
+  font-size: 20px;
+  color: #d5dde4;
+}
+
+#description-comemoracao {
+  text-align: center;
+  font-family: "Lusitana", serif;
+  font-weight: 400;
+}
+
+#mensao-honrosa {
+  color: #a8dadc;
+  font-family: "Lusitana", serif;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#container-explorar-historia {
+  background-color: #fff;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#title-explorar-historia {
+  font-size: 36px;
+  color: #1d3557;
+}
+
+#description-explorar-historia {
+  color: #4b5563;
+  font-size: 16px;
+  text-align: center;
+}
+
+#container-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+#container-footer {
+  background-color: #1d3557;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #86b2bc;
+  gap: 30px;
+  padding: 30px 30px 30px 0px;
+}
+
+#container-footer-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+hr {
+  width: 60%;
+  color: #9ca3af;
+}
+
+#container-footer-1-1 {
+  width: 300px;
+}
+
+.title-footer {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#description-footer {
+  color: #86b2bc;
+}
+
+#container-footer-1-2 {
+  margin-right: 100px;
+}
+
+#container-footer-1-2 a,
+#container-footer-1-3 a {
+  color: #86b2bc;
+}
+
+#container-footer-1-2 a:hover,
+#container-footer-1-3 a:hover {
+  color: #caf0f8;
+}
+
+#container-footer-2 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#container-footer-1-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+#container-footer-1-3 a {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#container-footer-1-3-1 {
+  display: flex;
+}
+
+@media (max-width: 785px) {
+  #title-eventos {
+    font-size: 60px;
+  }
+
+  #title-comemoracao {
+    font-size: 30px;
+  }
+
+  #title-historia {
+    font-size: 30px;
+  }
+
+  #title-descoberta {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 860px) {
+  #title-eventos {
+    font-size: 60px;
+  }
+
+  #container-footer-1 {
+    flex-direction: column;
+    align-self: flex-start;
+    padding-left: 40px;
+    gap: 30px;
+  }
+
+  hr {
+    width: 90%;
+  }
+
+  #container-footer-2 p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1060px) {
+  #description-historia {
+    width: 1000px;
+  }
+
+  #description-comemoracao {
+    width: 1000px;
+  }
+}
